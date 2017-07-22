@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user"
+            android:title="Profile " />
+
+
+    </group>
+
+    <item android:title="View">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="News"
+                />
+
+            <item
+                android:id="@+id/cont"
+                android:icon="@drawable/contact"
+                android:title="Important contacts" />
+
+
+            <item
+                android:id="@+id/suspects"
+                android:icon="@drawable/list"
+                android:title="Suspects list" />
+
+
+            <item
+                android:id="@+id/missing"
+                android:icon="@drawable/list"
+                android:title="Missing list" />
+
+            <item
+                android:id="@+id/ipc"
+                android:icon="@drawable/ipc"
+                android:title="IPC" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/lang"
+                android:icon="@drawable/lang"
+                android:title="Language settings" />
+
+
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+
+</menu>

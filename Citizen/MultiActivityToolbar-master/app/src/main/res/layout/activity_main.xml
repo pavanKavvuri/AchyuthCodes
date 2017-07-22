@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mateoj.multiactivitydrawer.MainActivity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report a Complaint"
+        android:id="@+id/report"
+        android:layout_below="@+id/emergent"
+        android:layout_toRightOf="@+id/Quick"
+        android:layout_toEndOf="@+id/Quick"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/traffic"
+        android:text="LiveTraffic" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Quick"
+            android:text="Quick Report" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NearbyPlaces"
+        android:id="@+id/nearby"
+        android:layout_alignBaseline="@+id/report"
+        android:layout_alignBottom="@+id/report"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complaint for Women"
+            android:id="@+id/women" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information Repository"
+        android:id="@+id/repo"
+        android:layout_below="@+id/Police"
+        android:layout_alignLeft="@+id/area"
+        android:layout_alignStart="@+id/area"
+        android:layout_marginTop="53dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency contacts"
+        android:id="@+id/emergent"
+        android:layout_alignBaseline="@+id/repo"
+        android:layout_alignBottom="@+id/repo"
+        android:layout_alignRight="@+id/area"
+        android:layout_alignEnd="@+id/area" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Your Area"
+            android:id="@+id/area"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/report"
+            android:layout_alignStart="@+id/report"
+            android:layout_marginBottom="51dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/latlang"/>
+
+     </LinearLayout>
+
+</ScrollView>

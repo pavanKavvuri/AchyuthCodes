@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pavan.com.singham.Notify"
+    tools:showIn="@layout/activity_notify">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:id="@+id/n0"
+        android:text="NO Notifications yet"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:id="@+id/n1"
+
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/text_margin"
+            android:id="@+id/n2"
+
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/text_margin"
+            android:id="@+id/n3"
+
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="25dp"/>
+
+
+
+
+    </LinearLayout>
+
+    
+
+</android.support.v4.widget.NestedScrollView>

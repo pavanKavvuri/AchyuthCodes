@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Third I Citizen App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="nav_drawer_opened">drawer opened</string>
+    <string name="nav_drawer_closed">drawer closed</string>
+    <string name="about_us">About us</string>
+    <string name="log_out">Logout</string>
+    <string name="title_activity_notify">Lets get Notified</string>
+    <string name="women">A Lady officer will be attending these complaints and the identity of the complainer will be kept anonymous.</string>
+
+    <string-array name="Crime_Array">
+
+
+        <item>Traffic</item>
+        <item>Medical Emergency</item>
+        <item>Fire</item>
+        <item>Crime(Critical)</item>
+        <item>Road accident</item>
+        <item>Suspects</item>
+        <item>Prohibition</item>
+        <item>Encroachment</item>
+        <item>Suggestion</item>
+        <item>Illegal parking</item>
+        <item>Road broken</item>
+        <item>Abuse/Misbehavior</item>
+        <item>Stampede</item>
+        <item>Others</item>
+
+    </string-array>
+
+
+    <string-array name="Police_Array">
+
+
+        <item>Traffic</item>
+        <item>Medical Emergency</item>
+        <item>Fire</item>
+        <item>Crime(Critical)</item>
+        <item>Road accident</item>
+        <item>Suspects/Wanted</item>
+        <item>Prohibition</item>
+        <item>Encroachment</item>
+        <item>Infringement/Violation</item>
+        <item>Illegal parking</item>
+
+
+        <item>Stampede</item>
+        <item>Others</item>
+
+    </string-array>
+
+
+    <string-array name="Women_Crime">
+
+        <item>Abuse</item>
+        <item>Eve teasing</item>
+        <item>Molestation</item>
+        <item>Domestic violence</item>
+        <item>Blackmail</item>
+        <item>Suggestion</item>
+        <item>Unsafe place</item>
+        <item>threats</item>
+        <item>Other</item>
+        <item>Suggestion</item>
+
+    </string-array>
+
+    <string-array name="Area_Array">
+
+        <item>Adgaon</item>
+        <item>Ambad</item>
+        <item>Bhadrakali</item>
+        <item>Deolali</item>
+        <item>Gangapur</item>
+        <item>Indira Nagar</item>
+        <item>Mumbai Naka</item>
+        <item>Mhasrul</item>
+        <item>Nashik Road</item>
+        <item>Panchavati</item>
+        <item>Sarkarwada</item>
+        <item>Satpur</item>
+        <item>Upnagar</item>
+
+
+    </string-array>
+
+
+    <string-array name="police_Entries">
+
+
+        <item>Phone </item>
+        <item>Police come to you</item>
+        <item>Reach police station</item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_lets_rate">LetsRate</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.mateoj.multiactivitydrawer.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="@string/about_us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/log_out"
+        android:orderInCategory="100"
+        android:title="@string/log_out"
+        app:showAsAction="never"/>
+
+
+
+    <item
+        android:id="@+id/notify"
+        android:orderInCategory="100"
+        android:title="helloBoss"
+        android:icon="@mipmap/ic_notifications_white_24dp"
+        app:showAsAction="always"/>
+</menu>

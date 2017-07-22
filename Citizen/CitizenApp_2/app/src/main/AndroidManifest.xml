@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mateoj.multiactivitydrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/third"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".traffic"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service android:name=".firebase">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCilC5J7kK1G2phCgzY6-0YGo8Jxmgmohc" />
+
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OtherActivity"
+            android:label="Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoHamburger"
+            android:label="Women Complaint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoToolbar"
+            android:label="Quick report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notify"
+            android:label="@string/title_activity_notify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LetsRate"
+            android:label="Rate you area"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Static_Contacts"
+            android:label="Important contacts"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "174823521372",
+    "firebase_url": "https://hellonotif.firebaseio.com",
+    "project_id": "hellonotif",
+    "storage_bucket": "hellonotif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174823521372:android:6ed5b880c314072f",
+        "android_client_info": {
+          "package_name": "pavan.com.singham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174823521372-snmiaoic38u8eqgu882lp10bansf23o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmFCK9q9bEiv5CvQ1Gh8LlCeAOSf68FvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

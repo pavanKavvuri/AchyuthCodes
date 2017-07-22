@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pavan.com.singham.feedback"
+    android:background="#FFFFFF"
+    tools:showIn="@layout/activity_feedback">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+android:orientation="vertical"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Do you like this app ?"
+    android:id="@+id/text1"
+    android:textStyle="bold"/>
+
+
+<RadioGroup
+    android:id="@+id/radioGroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RadioButton
+        android:id="@+id/Like0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/Like1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        />
+</RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Do you think it will help people and Police ?"
+    android:id="@+id/text2"
+    android:textStyle="bold"
+    />
+
+
+<RadioGroup
+    android:id="@+id/radioGroup2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RadioButton
+        android:id="@+id/help3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/help4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        />
+</RadioGroup>
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Do you think it will increase reporting of crime and incidents ?"
+    android:id="@+id/text3"
+    android:textStyle="bold"
+    />
+
+
+<RadioGroup
+    android:id="@+id/radioGroup3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RadioButton
+        android:id="@+id/rep5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/rep6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        />
+</RadioGroup>
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="If you have this mobile app, will you report, if you witness an incident ?"
+    android:id="@+id/text4"
+    android:textStyle="bold"
+    />
+
+
+<RadioGroup
+    android:id="@+id/radioGroup4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RadioButton
+        android:id="@+id/wit7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="I will report" />
+
+    <RadioButton
+        android:id="@+id/wit8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I don't think so"
+        />
+
+    <RadioButton
+        android:id="@+id/wit9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I can't say"
+        />
+</RadioGroup>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Any suggestions ?"
+    android:id="@+id/text5"
+    android:textStyle="bold"
+    android:layout_marginBottom="8dp"
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/feedback"
+    android:inputType="textMultiLine"
+    android:background="@drawable/round_corner"
+    android:lines="5"
+    />
+
+<Button
+    android:id="@+id/Send"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send"
+    />
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</ScrollView>

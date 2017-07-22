@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home1"
+        android:icon="@drawable/home"/>
+
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/user"/>
+
+
+
+
+    <group android:id="@+id/group_settings_id">
+
+        <item
+            android:title="Alert preferences"
+            android:id="@+id/alert"
+            android:icon="@drawable/notif"/>
+
+
+
+        <item
+            android:title="Language settings"
+            android:id="@+id/lang"
+            android:icon="@drawable/lang"/>
+
+
+    </group>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Police station numbers"
+                android:id="@+id/emer"
+                android:icon="@drawable/list"/>
+            <item
+                android:title="Emergency contacts"
+                android:id="@+id/pol"
+                android:icon="@drawable/cont_imp"/>
+
+            <item
+                android:title="Information repository"
+                android:id="@+id/info"
+                android:icon="@drawable/infor"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Feedback"
+        android:id="@+id/feedback"
+        android:icon="@drawable/feed"/>
+
+
+
+
+</menu>

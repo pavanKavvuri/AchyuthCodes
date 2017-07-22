@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/About_Us"
+        android:id="@+id/textView15"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Team"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView16"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Executives:"
+        android:id="@+id/textView17"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kovid Sawla"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Himanshu Yadav"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView19" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers:"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PavanKumar Kavvuri"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atchut kumar Sakhumalla"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adesh Chopade"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designers:"
+        android:textColor="#000"
+        android:layout_marginBottom="6dp"
+        android:textStyle="italic"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:text="Tina S Kumar"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aishwarya Nileshwar"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#000"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact:"
+        android:textColor="#000"
+        android:layout_marginBottom="6dp"
+        android:textStyle="italic"
+        android:id="@+id/textView27" />
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="kovidsawla@gmail.com"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="9799235966, 9225817739"
+        android:id="@+id/textView30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView29" />
+
+
+</LinearLayout>
